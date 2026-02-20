@@ -12,13 +12,10 @@
  * and displays structured output via Serial Monitor.
  */
 
- // TODO 1:
- // Define LDR analog pin (Use A0)
-
- // TODO 2:
- // Create variable to store sensor reading
 
 void setup() {
+    Serial.begin(9600);
+
 
     // TODO 3:
     // Initialize Serial communication (9600 baud rate)
