@@ -15,13 +15,7 @@
 
 void setup() {
     Serial.begin(9600);
-
-
-    // TODO 3:
-    // Initialize Serial communication (9600 baud rate)
-
-    // TODO 4:
-    // Print system initialization message
+    while (!Serial);
 }
 
 void loop() {
